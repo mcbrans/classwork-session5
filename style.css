@@ -1,0 +1,41 @@
+body {
+  background-color: #e6ffe6
+}
+
+h1 {
+    border-style: ridge;
+    border-color: black;
+    border-width: thick;
+    margin: 35px;
+    position: fixed;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+h4 {
+  text-align: center;
+  text-shadow: 10px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.col-sm-5, .col-sm-4, .col-sm-3 {
+  border-style: inset;
+  border-color: black;
+  border-width: thin;
+  z-index: -1;
+  padding-top: 15px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+@media (max-width:400px) and (max-width: 400px) {
+  h1 {
+    font-size: 20px;
+  }
